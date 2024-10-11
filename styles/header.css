@@ -1,0 +1,13 @@
+.cabeçalho_menu{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Logo.png");
+    display: inline-block;
+    justify-content: center;
+}
+
+.logo{
+    display: block;
+    justify-content: center;
+    background-position: center;
+}
