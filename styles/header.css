@@ -1,0 +1,26 @@
+.cabecalho {
+    background-color: #ffff;
+    display: block;
+}
+
+@media screen and (width >=640px) {
+    .cabecalho {
+        display: flex;
+        display: -ms-flexbox;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cabecalho_menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 1;
+    }
+}
+
+#fotoprincipal {
+    justify-content: center;
+}
+
+
